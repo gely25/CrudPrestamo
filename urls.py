@@ -1,7 +1,7 @@
 from django.urls import path
-from . import views  # Importa las vistas que usas en la app
+from . import views  
 
-app_name = 'Nomina'  # Nombre de la aplicación para el espacio de nombres
+app_name = 'Nomina'  
 urlpatterns = [
     
     path('crear_empleado/',views.crear_empleado, name='crear_empleado'), 
